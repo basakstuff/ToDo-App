@@ -9,6 +9,7 @@ const Todo = ({ todos, completeTodo, removeTodo, updateTodo }) => {
     value: ''
   });
 
+
   const submitUpdate = value => {
     updateTodo(edit.id, value);
     setEdit({
